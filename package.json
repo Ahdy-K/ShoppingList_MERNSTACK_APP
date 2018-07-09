@@ -1,0 +1,23 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "mern stack shoppinglist",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Ahdy-K",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "nodemon": "^1.17.5"
+    
+  }
+}
